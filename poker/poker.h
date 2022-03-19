@@ -15,11 +15,11 @@ struct poker
 
 void poker_init(void);
 
-int rand_being(int i);
+int rand_being(int i); // creat random value
 
 void card_count_init(void);
 
-int rand_card(void);
+int rand_card(void); // product random poker card in int from
 
 void show_player(void);
 
