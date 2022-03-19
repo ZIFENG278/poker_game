@@ -1,12 +1,12 @@
 .PHONY: all clean
 
-TARGET= poker
+TARGET= poker_main
 
 all: ${TARGET}
 
-poker: poker.o poker_fun.o 
+poker_main: poker_main.o poker_fun.o 
 
-poker.o: poker.c poker.h
+poker_main.o: poker_main.c poker.h
 
 poker_fun.o: poker_fun.c poker.h
 

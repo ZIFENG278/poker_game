@@ -56,7 +56,7 @@ void show_player(void)
     int player_face;
     for (int palyer = 0; palyer < NB_PLAYER; palyer++)
     {
-        printf("PLAY%d: ", palyer + 1);
+        printf("PLAYER%d: ", palyer + 1);
         for (int player_poker = 0; player_poker < NB_PLAYER_CARD; player_poker++)
         {
             player_suit = card_count[distribution] / 100 - 1;
@@ -73,6 +73,7 @@ void show_player(void)
 
 void show_table(void)
 {
+    putchar('\n');
     printf("TABLE: ");
     int player_suit;
     int player_face;
