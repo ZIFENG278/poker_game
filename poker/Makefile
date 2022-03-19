@@ -6,7 +6,7 @@ all: ${TARGET}
 
 poker_main: poker_main.o poker_fun.o 
 
-poker_main.o: poker_main.c poker.hw
+poker_main.o: poker_main.c poker.h
 
 poker_fun.o: poker_fun.c poker.h
 
